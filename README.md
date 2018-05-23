@@ -52,7 +52,8 @@ pourront ajouter et attribuer à des oeuvres
 - Création de l'entité User (username,password,mail)
 - L'username doit faire entre 3 et 100 caractères
 - Le mail doit faire 5-150 caractères
-- Vérifier que le mot de passe comprenne au moins une majuscule et 8-70 caractères
+- Vérifier que le mot de passe comprenne au moins une majuscule et 8-64 caractères
+(utilisation https://symfony.com/doc/3.3/doctrine/registration_form.html)
 - Vérifier en base que l'username et le mail sont uniques
 - Permettre la connexion avec un email ou un pseudo
 - Création du repository associé et de son service en yml
